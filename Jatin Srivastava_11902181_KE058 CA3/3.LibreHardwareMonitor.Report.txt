@@ -1,0 +1,663 @@
+
+LibreHardwareMonitor Report
+
+--------------------------------------------------------------------------------
+
+Version: 0.9.2.0
+
+--------------------------------------------------------------------------------
+
+Common Language Runtime: 4.0.30319.42000
+Operating System: Microsoft Windows NT 10.0.19044.0
+Process Type: 64-Bit
+
+--------------------------------------------------------------------------------
+
+Sensors
+
+|
++- Lenovo Base Board Product Name (/motherboard)
+|
++- Intel Celeron B800 (/intelcpu/0)
+|  +- CPU Core       :  1.14587 0.805542  1.14587 (/intelcpu/0/voltage/0)
+|  +- CPU Core #1    :  1.14587 0.800537  1.14587 (/intelcpu/0/voltage/1)
+|  +- CPU Core #2    :  1.14587 0.805542  1.14587 (/intelcpu/0/voltage/2)
+|  +- CPU Package    :  4.68598  3.13465  16.0282 (/intelcpu/0/power/0)
+|  +- CPU Cores      :  1.75456 0.558689  10.0591 (/intelcpu/0/power/1)
+|  +- Bus Speed      :  99.7733   99.765  99.7837 (/intelcpu/0/clock/0)
+|  +- CPU Core #1    :   1496.6  798.138  1496.76 (/intelcpu/0/clock/1)
+|  +- CPU Core #2    :   1496.6  798.138  1496.76 (/intelcpu/0/clock/2)
+|  +- CPU Core #1    :       55       50       66 (/intelcpu/0/temperature/0)
+|  +- CPU Core #2    :       58       52       65 (/intelcpu/0/temperature/1)
+|  +- CPU Package    :       59       52       66 (/intelcpu/0/temperature/2)
+|  +- CPU Core #1 Distance to TjMax :       45       34       50 (/intelcpu/0/temperature/3)
+|  +- CPU Core #2 Distance to TjMax :       42       35       48 (/intelcpu/0/temperature/4)
+|  +- Core Max       :       58       52       66 (/intelcpu/0/temperature/5)
+|  +- Core Average   :     56.5       51     65.5 (/intelcpu/0/temperature/6)
+|  +- CPU Total      :  25.8188   7.5475      100 (/intelcpu/0/load/0)
+|  +- CPU Core #1    :  27.9307  8.82475      100 (/intelcpu/0/load/1)
+|  +- CPU Core #2    :  23.7069  5.89392      100 (/intelcpu/0/load/2)
+|
++- Generic Memory (/ram)
+|  +- Memory         :  71.0422  71.0197  86.9406 (/ram/load/0)
+|  +- Virtual Memory :  74.8354  74.8354  88.4297 (/ram/load/1)
+|  +- Memory Used    :  4.22358  4.22224  5.16877 (/ram/data/0)
+|  +- Memory Available :  1.72159 0.776405  1.72293 (/ram/data/1)
+|  +- Virtual Memory Used :  6.69416  6.69416  7.91019 (/ram/data/2)
+|  +- Virtual Memory Available :  2.25102  1.03498  2.25102 (/ram/data/3)
+|
++- WDC WDS240G2G0A-00JH30 (/hdd/0)
+|  +- Temperature    :       44       42       44 (/hdd/0/temperature/0)
+|  +- Used Space     :  68.2554   68.254  68.2622 (/hdd/0/load/0)
+|  +- Write Activity : 0.148952        0    74.66 (/hdd/0/load/32)
+|  +- Total Activity : 0.235689        0      100 (/hdd/0/load/33)
+|  +- Read Rate      :        0        0 5.84295E+07 (/hdd/0/throughput/34)
+|  +- Write Rate     :   122835        0 5.16176E+07 (/hdd/0/throughput/35)
+|
++- Ethernet (/nic/{E2F76695-37F0-414F-9E3A-A3ABF3039EC7})
+|  +- Network Utilization :        0        0        0 (/nic/{E2F76695-37F0-414F-9E3A-A3ABF3039EC7}/load/1)
+|  +- Data Uploaded  :        0        0        0 (/nic/{E2F76695-37F0-414F-9E3A-A3ABF3039EC7}/data/2)
+|  +- Data Downloaded :        0        0        0 (/nic/{E2F76695-37F0-414F-9E3A-A3ABF3039EC7}/data/3)
+|  +- Upload Speed   :        0        0        0 (/nic/{E2F76695-37F0-414F-9E3A-A3ABF3039EC7}/throughput/7)
+|  +- Download Speed :        0        0        0 (/nic/{E2F76695-37F0-414F-9E3A-A3ABF3039EC7}/throughput/8)
+|
++- Ethernet 2 (/nic/{853D687F-9CFB-4D86-8272-288FD6DBF4AB})
+|  +- Network Utilization :        0        0        0 (/nic/{853D687F-9CFB-4D86-8272-288FD6DBF4AB}/load/1)
+|  +- Data Uploaded  :        0        0        0 (/nic/{853D687F-9CFB-4D86-8272-288FD6DBF4AB}/data/2)
+|  +- Data Downloaded :        0        0        0 (/nic/{853D687F-9CFB-4D86-8272-288FD6DBF4AB}/data/3)
+|  +- Upload Speed   :        0        0        0 (/nic/{853D687F-9CFB-4D86-8272-288FD6DBF4AB}/throughput/7)
+|  +- Download Speed :        0        0        0 (/nic/{853D687F-9CFB-4D86-8272-288FD6DBF4AB}/throughput/8)
+|
++- Local Area Connection* 1 (/nic/{17AFB5B7-083C-42BB-88BF-BCBF8975CC58})
+|  +- Network Utilization :        0        0        0 (/nic/{17AFB5B7-083C-42BB-88BF-BCBF8975CC58}/load/1)
+|  +- Data Uploaded  :        0        0        0 (/nic/{17AFB5B7-083C-42BB-88BF-BCBF8975CC58}/data/2)
+|  +- Data Downloaded :        0        0        0 (/nic/{17AFB5B7-083C-42BB-88BF-BCBF8975CC58}/data/3)
+|  +- Upload Speed   :        0        0        0 (/nic/{17AFB5B7-083C-42BB-88BF-BCBF8975CC58}/throughput/7)
+|  +- Download Speed :        0        0        0 (/nic/{17AFB5B7-083C-42BB-88BF-BCBF8975CC58}/throughput/8)
+|
++- Local Area Connection* 2 (/nic/{A7645C2E-2CBB-47D8-8E13-8E32E0047976})
+|  +- Network Utilization :        0        0        0 (/nic/{A7645C2E-2CBB-47D8-8E13-8E32E0047976}/load/1)
+|  +- Data Uploaded  :        0        0        0 (/nic/{A7645C2E-2CBB-47D8-8E13-8E32E0047976}/data/2)
+|  +- Data Downloaded :        0        0        0 (/nic/{A7645C2E-2CBB-47D8-8E13-8E32E0047976}/data/3)
+|  +- Upload Speed   :        0        0        0 (/nic/{A7645C2E-2CBB-47D8-8E13-8E32E0047976}/throughput/7)
+|  +- Download Speed :        0        0        0 (/nic/{A7645C2E-2CBB-47D8-8E13-8E32E0047976}/throughput/8)
+|
++- VMware Network Adapter VMnet1 (/nic/{B3EF6CC3-12C2-42FE-99D4-42B5C5BAC8C0})
+|  +- Network Utilization :        0        0 0.000209291 (/nic/{B3EF6CC3-12C2-42FE-99D4-42B5C5BAC8C0}/load/1)
+|  +- Data Uploaded  : 9.06177E-07 7.62753E-07 9.06177E-07 (/nic/{B3EF6CC3-12C2-42FE-99D4-42B5C5BAC8C0}/data/2)
+|  +- Data Downloaded : 7.45058E-09 3.72529E-09 7.45058E-09 (/nic/{B3EF6CC3-12C2-42FE-99D4-42B5C5BAC8C0}/data/3)
+|  +- Upload Speed   :        0        0  25.1552 (/nic/{B3EF6CC3-12C2-42FE-99D4-42B5C5BAC8C0}/throughput/7)
+|  +- Download Speed :        0        0  1.00754 (/nic/{B3EF6CC3-12C2-42FE-99D4-42B5C5BAC8C0}/throughput/8)
+|
++- VMware Network Adapter VMnet8 (/nic/{53126623-1358-4D9C-A6D3-84D2BA648CFA})
+|  +- Network Utilization :        0        0 0.000225391 (/nic/{53126623-1358-4D9C-A6D3-84D2BA648CFA}/load/1)
+|  +- Data Uploaded  : 1.34483E-06 9.77889E-07 1.34483E-06 (/nic/{53126623-1358-4D9C-A6D3-84D2BA648CFA}/data/2)
+|  +- Data Downloaded : 7.45058E-09 3.72529E-09 7.45058E-09 (/nic/{53126623-1358-4D9C-A6D3-84D2BA648CFA}/data/3)
+|  +- Upload Speed   :        0        0  27.1676 (/nic/{53126623-1358-4D9C-A6D3-84D2BA648CFA}/throughput/7)
+|  +- Download Speed :        0        0  1.00754 (/nic/{53126623-1358-4D9C-A6D3-84D2BA648CFA}/throughput/8)
+|
++- Wi-Fi (/nic/{3E2990A0-5292-4114-A618-09E89E402E86})
+|  +- Network Utilization : 0.000336373        0  21.5495 (/nic/{3E2990A0-5292-4114-A618-09E89E402E86}/load/1)
+|  +- Data Uploaded  : 0.00266357 0.000387765 0.00266357 (/nic/{3E2990A0-5292-4114-A618-09E89E402E86}/data/2)
+|  +- Data Downloaded : 0.022142 0.00265923 0.022142 (/nic/{3E2990A0-5292-4114-A618-09E89E402E86}/data/3)
+|  +- Upload Speed   :  54.6606        0    77955 (/nic/{3E2990A0-5292-4114-A618-09E89E402E86}/throughput/7)
+|  +- Download Speed :        0        0 3.44161E+06 (/nic/{3E2990A0-5292-4114-A618-09E89E402E86}/throughput/8)
+|
++- PABAS024 (/battery)
+|  +- Voltage        :   12.209   10.581    12.21 (/battery/voltage/1)
+|  +- Charge Current : 0.687198 0.0438227  1.69738 (/battery/current/2)
+|  +- Charge Rate    :     8.39     0.52    20.63 (/battery/power/0)
+|  +- Charge Level   :  65.9734  19.9667  65.9734 (/battery/level/0)
+|  +- Degradation Level :  74.0948  74.0948  74.0948 (/battery/level/0)
+|  +- Designed Capacity :    46400    46400    46400 (/battery/energy/3)
+|  +- Full Charged Capacity :    12020    12020    12020 (/battery/energy/4)
+|  +- Remaining Capacity :     7930     2400     7930 (/battery/energy/5)
+
+--------------------------------------------------------------------------------
+
+Parameters
+
+|
++- Lenovo Base Board Product Name (/motherboard)
+|
++- Intel Celeron B800 (/intelcpu/0)
+|  |
+|  +- CPU Core #1 (/intelcpu/0/temperature/0)
+|  |  +- TjMax [°C] : 100 : 100
+|  |  +- TSlope [°C] : 1 : 1
+|  |
+|  +- CPU Core #2 (/intelcpu/0/temperature/1)
+|  |  +- TjMax [°C] : 100 : 100
+|  |  +- TSlope [°C] : 1 : 1
+|  |
+|  +- CPU Package (/intelcpu/0/temperature/2)
+|  |  +- TjMax [°C] : 100 : 100
+|  |  +- TSlope [°C] : 1 : 1
+|
++- Generic Memory (/ram)
+|
++- WDC WDS240G2G0A-00JH30 (/hdd/0)
+|  |
+|  +- Temperature (/hdd/0/temperature/0)
+|  |  +- Offset [°C] : 0 : 0
+|
++- Ethernet (/nic/{E2F76695-37F0-414F-9E3A-A3ABF3039EC7})
+|
++- Ethernet 2 (/nic/{853D687F-9CFB-4D86-8272-288FD6DBF4AB})
+|
++- Local Area Connection* 1 (/nic/{17AFB5B7-083C-42BB-88BF-BCBF8975CC58})
+|
++- Local Area Connection* 2 (/nic/{A7645C2E-2CBB-47D8-8E13-8E32E0047976})
+|
++- VMware Network Adapter VMnet1 (/nic/{B3EF6CC3-12C2-42FE-99D4-42B5C5BAC8C0})
+|
++- VMware Network Adapter VMnet8 (/nic/{53126623-1358-4D9C-A6D3-84D2BA648CFA})
+|
++- Wi-Fi (/nic/{3E2990A0-5292-4114-A618-09E89E402E86})
+|
++- PABAS024 (/battery)
+
+--------------------------------------------------------------------------------
+
+Motherboard
+
+SMBios Version: 2.7
+
+BIOS Vendor: LENOVO
+BIOS Version: 40CN24WW(V2.10)
+BIOS Date: 28-06-2011
+BIOS Size: 2 MB
+
+System Manufacturer: LENOVO
+System Name: 20079                           
+System Version: Lenovo G570                     
+System Wakeup: PowerSwitch
+
+Motherboard Manufacturer: LENOVO
+Motherboard Name: Base Board Product Name
+Motherboard Version: Base Board Version
+Motherboard Serial: CB09742048
+
+System Enclosure Type: Notebook
+System Enclosure Manufacturer: Chassis Manufacturer
+System Enclosure Version: Chassis Version
+System Enclosure Serial: Chassis Serial Number
+System Enclosure Asset Tag: Chassis Asset Tag
+System Enclosure Boot Up State: Safe
+System Enclosure Power Supply State: Safe
+System Enclosure Thermal State: Safe
+System Enclosure Power Cords: 1
+System Enclosure Lock Detected: No
+System Enclosure Security Status: None
+
+Processor Manufacturer: Intel(R) Corporation
+Processor Type: CentralProcessor
+Processor Version: Intel(R) Celeron(R) CPU B800 @ 1.50GHz
+Processor Serial: 
+Processor Socket Destignation: CPU1
+Processor Socket: Other
+Processor Version: Intel(R) Celeron(R) CPU B800 @ 1.50GHz
+Processor Family: IntelCeleron
+Processor Core Count: 2
+Processor Core Enabled: 2
+Processor Thread Count: 2
+Processor External Clock: 1333 Mhz
+Processor Max Speed: 4000 Mhz
+Processor Current Speed: 1500 Mhz
+
+Cache [L1] Size: 32
+Cache [L1] Associativity: 8Way
+
+Cache [L1] Size: 32
+Cache [L1] Associativity: 8Way
+
+Cache [L2] Size: 256
+Cache [L2] Associativity: 8Way
+
+Cache [L3] Size: 32800
+Cache [L3] Associativity: 8Way
+
+Memory Device [0] Manufacturer: 
+Memory Device [0] Part Number: H6451U64F9333G
+Memory Device [0] Device Locator: ChannelA-DIMM0
+Memory Device [0] Bank Locator: BANK 0
+Memory Device [0] Speed: 1333
+Memory Device [0] Configured Speed: 1333
+Memory Device [0] Configured Voltage: 0
+Memory Device [0] Size: 4096 MB
+
+Memory Device [1] Manufacturer: 
+Memory Device [1] Part Number: 
+Memory Device [1] Device Locator: ChannelA-DIMM1
+Memory Device [1] Bank Locator: BANK 1
+Memory Device [1] Speed: 0
+Memory Device [1] Configured Speed: 0
+Memory Device [1] Configured Voltage: 0
+Memory Device [1] Size: 0 MB
+
+Memory Device [2] Manufacturer: Samsung
+Memory Device [2] Part Number: M471B5773DH0-CH9
+Memory Device [2] Device Locator: ChannelB-DIMM0
+Memory Device [2] Bank Locator: BANK 2
+Memory Device [2] Speed: 1333
+Memory Device [2] Configured Speed: 1333
+Memory Device [2] Configured Voltage: 0
+Memory Device [2] Size: 2048 MB
+
+Memory Device [3] Manufacturer: 
+Memory Device [3] Part Number: 
+Memory Device [3] Device Locator: ChannelB-DIMM1
+Memory Device [3] Bank Locator: BANK 3
+Memory Device [3] Speed: 0
+Memory Device [3] Configured Speed: 0
+Memory Device [3] Configured Voltage: 0
+Memory Device [3] Size: 0 MB
+
+SMBios Table
+
+ AAIHAD4JAAAAGAAAAQIAAAMngJj5SwAAGgADDQEYAhhMRU5PVk8ANDBDTjI0V1co
+ VjIuMTApADA2LzI4LzIwMTEAAAEbAQABAgMEACy6OLkFEeCiq7hw9DDMUgYFBkxF
+ Tk9WTwAyMDA3OSAgICAgICAgICAgICAgICAgICAgICAgICAgIABMZW5vdm8gRzU3
+ MCAgICAgICAgICAgICAgICAgICAgIAAyNzI3MTA4NjAxNTUxAEh1cm9uUml2ZXJf
+ Q1JCAElERUFQQUQAAAIQAgABAgMEBQkGAwAKAABMRU5PVk8AQmFzZSBCb2FyZCBQ
+ cm9kdWN0IE5hbWUAQmFzZSBCb2FyZCBWZXJzaW9uAENCMDk3NDIwNDgAQmFzZSBC
+ b2FyZCBBc3NldCBUYWcAQmFzZSBCb2FyZCBDaGFzc2lzIExvY2F0aW9uAAADFwMA
+ AQoCAwQDAwMDAAAAAAABAAAABUNoYXNzaXMgTWFudWZhY3R1cmVyAENoYXNzaXMg
+ VmVyc2lvbgBDaGFzc2lzIFNlcmlhbCBOdW1iZXIAQ2hhc3NpcyBBc3NldCBUYWcA
+ Q2hhc3NpcyBTS1UAAAkRBAABqg0EBAAADAMAAAD/SjVDMQAACREFAAGoCgQDAAAM
+ AwAAAP9KNkMxAAAJEQYAAaYIBAMBAAwDAAAA/0o2QzIAAAkRBwABpggEAwIADAMA
+ AAD/SjZEMgAACREIAAGmCAQDAwAMAwAAAP9KN0MxAAAJEQkAAaYIBAMEAAwDAAAA
+ /0o3RDIAAAkRCgABqg0EBAEADAMAAAD/SjhDMgAACwULAAVTdHJpbmcxIGZvciBP
+ cmlnaW5hbCBFcXVpcG1lbnQgTWFudWZhY3R1cmVyAFN0cmluZzIgZm9yIE9yaWdp
+ bmFsIEVxdWlwbWVudCBNYW51ZmFjdHVyZXIAU3RyaW5nMyBmb3IgT3JpZ2luYWwg
+ RXF1aXBtZW50IE1hbnVmYWN0dXJlcgBTdHJpbmc0IGZvciBPcmlnaW5hbCBFcXVp
+ cG1lbnQgTWFudWZhY3R1cmVyAFN0cmluZzUgZm9yIE9yaWdpbmFsIEVxdWlwbWVu
+ dCBNYW51ZmFjdHVyZXIAAAwFDAABU3RyaW5nMSBmb3IgVHlwZTEyIEVxdWlwbWVu
+ dCBNYW51ZmFjdHVyZXIAAA0WDQAEAAAAAAAAAAAAAAAAAAAAAAFlbnxVU3xpc284
+ ODU5LTEAZnJ8Q0F8aXNvODg1OS0xAGphfEpQfHVuaWNvZGUAemh8VFd8dW5pY29k
+ ZQAAFQcOAAcEBAAAGhYPAAFCAIAAgACAAIAAgAAAAAAAgFZvbHRhZ2UgUHJvYmUg
+ RGVzY3JpcHRpb24uAAAbDxAA//9jAAAAAADQBwFDb29saW5nIERldmljZSBEZXNj
+ cmlwdGlvbi4AACAUEQAAAAAAAAAAAAAAAAAAAAAAAAAnFhIAAAECAwQFBgdLAKYh
+ //8QAP//T0VNX0RlZmluZTAAT0VNX0RlZmluZTEAT0VNX0RlZmluZTIAT0VNX0Rl
+ ZmluZTMAT0VNX0RlZmluZTQAT0VNX0RlZmluZTUAT0VNX0RlZmluZTYAACgSEwAC
+ BgQABQGqBwAABQLcBVBDSUV4cHJlc3N4MTYAQ29tcGlsZXIgVmVyc2lvbjogVkMg
+ OS4wAAApCxQAAYUBAAAAAUhhbmtzdmlsbGUgR2JlIExhbiBDb25uZWN0aW9uAAAW
+ GhUAAQIDBAUGAAAAAAD/AAAAAAAAAAAAAEZha2UALVZpcnR1YWwgQmF0dGVyeSAw
+ LQAxMC8xMi8yMDA3AEJhdHRlcnkgMABDUkIgQmF0dGVyeSAwAACIBhYA//8AAIEI
+ FwABAQIBSW50ZWxfQVNGAEludGVsX0FTRl8wMDEAAIIUGAAkQU1UAQEBAQGlHwIA
+ AAAAAAAQFxkAAwMDAAAAAv//AgAAAAAAAAAAAAAAESIaABkAHABAAEAAABANAAEC
+ GIAANQUAAwQFAAAAAAA1BUNoYW5uZWxBLURJTU0wAEJBTksgMAAwMDAwMDAwMAAw
+ MTIzNDU2Nzg5AEg2NDUxVTY0RjkzMzNHAAAGDBsAAf8AAAEMDABDaGFubmVsQS1E
+ SU1NMAAAEhccAAMCAgAAAAAAAACAAAAAgAAAAIAAABQjHQAAAAAA//8/ABoAJwD/
+ AQIAAAAAAAAAAAAAAAAAAAAAAAARIh4AGQD+/wAAAAAAAAkAAQICAAAAAAAAAwAA
+ AAAAAAAAQ2hhbm5lbEEtRElNTTEAQkFOSyAxADAxMjM0NTY3ODkAAAYMHwAB/wAA
+ AX9/AENoYW5uZWxBLURJTU0xAAARIiAAGQAiAEAAQAAACA0AAQIYgAA1BQMEBQYA
+ AAAAADUFQ2hhbm5lbEItRElNTTAAQkFOSyAyAFNhbXN1bmcAODAzMURFOEIAMDEy
+ MzQ1Njc4OQBNNDcxQjU3NzNESDAtQ0g5ICAAAAYMIQAB/wAAAQsLAENoYW5uZWxC
+ LURJTU0wAAASFyIAAwICAAAAAAAAAIAAAACAAAAAgAAAFCMjAAAAQAD//18AIAAn
+ AP8CAgAAAAAAAAAAAAAAAAAAAAAAABEiJAAZAP7/AAAAAAAACQABAgIAAAAAAAAD
+ AAAAAAAAAABDaGFubmVsQi1ESU1NMQBCQU5LIDMAMDEyMzQ1Njc4OQAABgwlAAH/
+ AAABf38AQ2hhbm5lbEItRElNTTEAABIXJgADAgIAAAAAAAAAgAAAAIAAAACAAAAT
+ HycAAAAAAP//XwAZAAIAAAAAAAAAAAAAAAAAAAAAAAAFFCgAAwQDAw0BAAEAAAIb
+ ACEABAAAhQUpAAFLSE9JSEdJVUNDSEhJSQAABCoqAAMDDwKnBgIA//vrvwGANQWg
+ D9wFQQEsAC0ALgAABAACAgIEAA8ASW50ZWwoUikgQ2VsZXJvbihSKSBDUFUgQjgw
+ MCBAIDEuNTBHSHoASW50ZWwoUikgQ29ycG9yYXRpb24AQ1BVMQBGRkZGAAAHEysA
+ AYAAIAAgACAAIAAABQQHTDEgQ2FjaGUAAAcTLAABgAAgACAAIAAgAAAFAwdMMSBD
+ YWNoZQAABxMtAAGBAAABAAEgACAAAAUFB0wyIENhY2hlAAAHEy4AAYIAIIAggCAA
+ IAAABQUHTDMgQ2FjaGUAAH8ELwAAAA==
+
+--------------------------------------------------------------------------------
+
+CPUID
+
+Processor 0
+
+Processor Vendor: Intel
+Processor Brand: Intel(R) Celeron(R) CPU B800 @ 1.50GHz
+Family: 0x6
+Model: 0x2A
+Stepping: 0x7
+
+CPUID Return Values
+
+ CPU Group: 0
+ CPU Thread: 0
+ APIC ID: 0
+ Processor ID: 0
+ Core ID: 0
+ Thread ID: 0
+
+ Function  EAX       EBX       ECX       EDX
+ 00000000  0000000D  756E6547  6C65746E  49656E69
+ 00000001  000206A7  00100800  8C9AE383  BFCBFBFF
+ 00000002  76035A01  00F0B0FF  00000000  00CA0000
+ 00000003  00000000  00000000  00000000  00000000
+ 00000004  1C004121  01C0003F  0000003F  00000000
+ 00000005  00000000  00000000  00000000  00000000
+ 00000006  00000071  00000002  00000009  00000000
+ 00000007  00000000  00000000  00000000  BC000400
+ 00000008  00000000  00000000  00000000  00000000
+ 00000009  00000000  00000000  00000000  00000000
+ 0000000A  07300803  00000000  00000000  00000603
+ 0000000B  00000001  00000001  00000100  00000000
+ 0000000C  00000000  00000000  00000000  00000000
+ 0000000D  00000003  00000240  00000240  00000000
+ 80000000  80000008  00000000  00000000  00000000
+ 80000001  00000000  00000000  00000001  28100800
+ 80000002  20202020  20202020  746E4920  52286C65
+ 80000003  65432029  6F72656C  2952286E  55504320
+ 80000004  30384220  20402030  30352E31  007A4847
+ 80000005  00000000  00000000  00000000  00000000
+ 80000006  00000000  00000000  01006040  00000000
+ 80000007  00000000  00000000  00000000  00000100
+ 80000008  00003024  00000000  00000000  00000000
+
+ CPU Group: 0
+ CPU Thread: 1
+ APIC ID: 2
+ Processor ID: 0
+ Core ID: 1
+ Thread ID: 0
+
+ Function  EAX       EBX       ECX       EDX
+ 00000000  0000000D  756E6547  6C65746E  49656E69
+ 00000001  000206A7  02100800  8C9AE383  BFCBFBFF
+ 00000002  76035A01  00F0B0FF  00000000  00CA0000
+ 00000003  00000000  00000000  00000000  00000000
+ 00000004  1C004121  01C0003F  0000003F  00000000
+ 00000005  00000000  00000000  00000000  00000000
+ 00000006  00000071  00000002  00000009  00000000
+ 00000007  00000000  00000000  00000000  BC000400
+ 00000008  00000000  00000000  00000000  00000000
+ 00000009  00000000  00000000  00000000  00000000
+ 0000000A  07300803  00000000  00000000  00000603
+ 0000000B  00000001  00000001  00000100  00000002
+ 0000000C  00000000  00000000  00000000  00000000
+ 0000000D  00000003  00000240  00000240  00000000
+ 80000000  80000008  00000000  00000000  00000000
+ 80000001  00000000  00000000  00000001  28100800
+ 80000002  20202020  20202020  746E4920  52286C65
+ 80000003  65432029  6F72656C  2952286E  55504320
+ 80000004  30384220  20402030  30352E31  007A4847
+ 80000005  00000000  00000000  00000000  00000000
+ 80000006  00000000  00000000  01006040  00000000
+ 80000007  00000000  00000000  00000000  00000100
+ 80000008  00003024  00000000  00000000  00000000
+
+--------------------------------------------------------------------------------
+
+Intel CPU
+
+Name: Intel Celeron B800
+Number of Cores: 2
+Threads per Core: 1
+Timer Frequency: 10 MHz
+Time Stamp Counter: Invariant
+Estimated Time Stamp Counter Frequency: 1496.75 MHz
+Estimated Time Stamp Counter Frequency Error: 0.24547 Mhz
+Time Stamp Counter Frequency: 1496.6 MHz
+
+MSR Core #1
+
+ MSR       EDX       EAX
+ 000000CE  00000800  60010F00
+ 00000198  000024AB  00000F00
+ 0000019C  00000000  882B0000
+ 000001A2  00000000  03640E00
+ 000001B1  00000000  882A0000
+ 00000606  00000000  000A1003
+ 00000611  00000000  54D4FE37
+ 00000639  00000000  3220723D
+ 00000641  00000000  02DCF05C
+
+MSR Core #2
+
+ MSR       EDX       EAX
+ 000000CE  00000800  60010F00
+ 00000198  000024AB  00000F00
+ 0000019C  00000000  882A0000
+ 000001A2  00000000  03640E00
+ 000001B1  00000000  882A0000
+ 00000606  00000000  000A1003
+ 00000611  00000000  54D4FE37
+ 00000639  00000000  3220723D
+ 00000641  00000000  02DCF05C
+
+MicroArchitecture: SandyBridge
+Time Stamp Counter Multiplier: 15
+
+--------------------------------------------------------------------------------
+
+AMD Display Library
+
+Status: ADL_ERR
+
+--------------------------------------------------------------------------------
+
+Intel GPU (D3D)
+
+Number of adapters: 2
+
+AdapterIndex: 0
+DeviceId: \\?\ROOT#BasicRender#0000#{1ca05180-a699-450a-9a0c-de4fbe3ddd89}
+IsIntel: False
+
+AdapterIndex: 1
+DeviceId: \\?\PCI#VEN_8086&DEV_0106&SUBSYS_397517AA&REV_09#3&11583659&0&10#{1ca05180-a699-450a-9a0c-de4fbe3ddd89}
+IsIntel: True
+
+--------------------------------------------------------------------------------
+
+FTD2XX
+
+Status: missing DLL
+
+--------------------------------------------------------------------------------
+
+AquaComputer Hardware
+
+No AquaComputer Hardware found.
+
+--------------------------------------------------------------------------------
+
+AeroCool Hardware
+
+No AeroCool Hardware found.
+
+--------------------------------------------------------------------------------
+
+Nzxt Hardware
+
+No Nzxt Hardware found.
+
+--------------------------------------------------------------------------------
+
+Storage
+
+Drive Name: WDC WDS240G2G0A-00JH30
+Firmware Version: UF500000
+
+ Id Description                        Raw Value    Worst Value ThresholdPhysical
+ 05 Reallocated Sectors Count          000000000000 100   100   0     -       
+ 09 Power-On Hours (POH)               1D2200000000 100   100   0     8733    
+ 0C Power Cycle Count                  0E1900000000 100   100   0     6414    
+ A5 Unknown                            FB1E00000000 100   100   0     -       
+ A6 Unknown                            280000000000 100   100   -     -       
+ A7 Unknown                            000000000000 100   100   -     -       
+ A8 Unknown                            5F0000000000 100   100   -     -       
+ A9 Unknown                            0F0100000000 100   100   -     -       
+ AA Unknown                            000000000000 100   100   -     -       
+ AB Unknown                            000000000000 100   100   0     -       
+ AC Unknown                            000000000000 100   100   0     -       
+ AD Unknown                            280000000000 100   100   0     -       
+ AE Unknown                            390000000000 100   100   0     -       
+ B8 End-to-End error                   000000000000 100   100   -     -       
+ BB Reported Uncorrectable Errors      000000000000 100   100   0     0       
+ BC Command Timeout                    000000000000 100   100   -     0       
+ C2 Temperature                        2D0003003800 56    55    0     45      
+ C7 UltraDMA CRC Error Count           000000000000 100   100   -     -       
+ E6 GMR Head Amplitude                 421600084216 100   100   0     -       
+ E8 Endurance Remaining                640000000000 100   100   5     -       
+ E9 Power-On Hours (POH)               D72600000000 100   100   -     -       
+ EA Unknown                            3DEC00000000 100   100   0     -       
+ F1 Total LBAs Written                 0D4400000000 100   100   0     -       
+ F2 Total LBAs Read                    995100000000 100   100   0     -       
+ F4 Unknown                            000000000000 100   0     -     -       
+
+Logical Drive Name: C:\
+Format: NTFS
+Total Size: 172909129728
+Total Free Space: 63683932160
+
+Logical Drive Name: E:\
+Format: NTFS
+Total Size: 67049091072
+Total Free Space: 12486201344
+
+--------------------------------------------------------------------------------
+
+Qualcomm Atheros AR8152 PCI-E Fast Ethernet Controller (NDIS 6.30)
+Down
+
+Data Uploaded
+0
+
+Data Downloaded
+0
+
+Upload Speed
+0
+
+Download Speed
+0
+
+Network Utilization
+0
+
+VirtualBox Host-Only Ethernet Adapter
+Up
+
+Data Uploaded
+0
+
+Data Downloaded
+0
+
+Upload Speed
+0
+
+Download Speed
+0
+
+Network Utilization
+0
+
+Microsoft Wi-Fi Direct Virtual Adapter
+Down
+
+Data Uploaded
+0
+
+Data Downloaded
+0
+
+Upload Speed
+0
+
+Download Speed
+0
+
+Network Utilization
+0
+
+Microsoft Wi-Fi Direct Virtual Adapter #2
+Down
+
+Data Uploaded
+0
+
+Data Downloaded
+0
+
+Upload Speed
+0
+
+Download Speed
+0
+
+Network Utilization
+0
+
+VMware Virtual Ethernet Adapter for VMnet1
+Up
+
+Data Uploaded
+9.061769E-07
+
+Data Downloaded
+7.450581E-09
+
+Upload Speed
+0
+
+Download Speed
+0
+
+Network Utilization
+0
+
+VMware Virtual Ethernet Adapter for VMnet8
+Up
+
+Data Uploaded
+1.34483E-06
+
+Data Downloaded
+7.450581E-09
+
+Upload Speed
+0
+
+Download Speed
+0
+
+Network Utilization
+0
+
+Qualcomm Atheros AR9285 Wireless Network Adapter
+Up
+
+Data Uploaded
+0.002663566
+
+Data Downloaded
+0.02214197
+
+Upload Speed
+54.66063
+
+Download Speed
+0
+
+Network Utilization
+0.0003363731
+
+--------------------------------------------------------------------------------
+
+Corsair HXi/RMi series PSU Hardware
+
+--------------------------------------------------------------------------------
+
+Battery #1:
+ Name: PABAS024
+ Manufacturer: COMPAL 
+ Chemistry: Lithium Ion
+ Degradation Level: 74.09 %
+ Designed Capacity: 46400 mWh
+ Full Charged Capacity: 12020 mWh
+ Remaining Capacity: 7930 mWh
+ Charge Level: 65.97 %
+ Voltage: 12.209 V
+ Charge Rate: 8.4 W
+ Charge Current: 0.687 A
+
